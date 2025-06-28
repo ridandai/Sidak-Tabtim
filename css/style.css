@@ -472,6 +472,12 @@ h6,
             height: 250px;
         }}
 
+    @media (max-width: 540px) {
+
+        img.gambarbsr {
+            display: none;
+        }}
+
     
 
 
