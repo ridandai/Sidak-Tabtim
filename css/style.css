@@ -476,7 +476,8 @@ h6,
 
         img.gambarbsr.scrolled {
 
-        width: 100px;
+        width: 200px;
+        top: 5px;
 
         }}
 
@@ -485,6 +486,7 @@ h6,
         .navbar .navbar-brand {
 
         width: 20px;
+        padding-top: 20px;
 
         }}
 
