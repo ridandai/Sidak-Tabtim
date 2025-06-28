@@ -474,8 +474,10 @@ h6,
 
     @media (max-width: 540px) {
 
-        img.gambarbsr {
-            display: none;
+        img.gambarbsr.scrolled {
+
+        width: 100px;
+
         }}
 
     
