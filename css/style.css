@@ -480,6 +480,14 @@ h6,
 
         }}
 
+    @media (max-width: 540px) {
+
+        .navbar .navbar-brand {
+
+        width: 20px;
+
+        }}
+
     
 
 
