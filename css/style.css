@@ -494,71 +494,72 @@ h6,
 
         }}
 
+
+
 #batik {
-background-image:url('/img/klipartz.com.jpg');
-background-repeat: repeat;
+    background-image:url('/img/klipartz.com.jpg');
+    background-repeat: repeat;
 }
 
-        .container-fluid #batik2 {
-background-image:url('/img/klipartz.com.jpg');
-background-repeat: repeat;
+.container-fluid #batik2 {
+    background-image:url('/img/klipartz.com.jpg');
+    background-repeat: repeat;
 }
 
 
 .container-fluid #batik {
-color: #b1b0b0;
+    color: #b1b0b0;
 }
 
 #btkmerah {
-background-image:url('/img/bgdark.jpg');
-background-repeat: repeat;
-color: rgb(218, 218, 218);
-text-align: center;
-padding: 27px 8px;
+    background-image:url('/img/bgdark.jpg');
+    background-repeat: repeat;
+    color: rgb(218, 218, 218);
+    text-align: center;
+    padding: 27px 8px;
 }
 
 #cardfootdark {
-background-image:url('/img/footdark.png');
-background-repeat: no-repeat;
-background-size: cover;
-color: rgb(218, 218, 218);
-text-align: center;
-padding: 18px 18px 18px 30px;
+    background-image:url('/img/footdark.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(218, 218, 218);
+    text-align: center;
+    padding: 18px 18px 18px 30px;
 }
 
 #cardfootdark a, #cardfootdark small{
-color: aliceblue;
-text-decoration: none;
+    color: aliceblue;
+    text-decoration: none;
 }
 
 #cardfootdark a:hover{
-color: rgb(250, 233, 0);
+    color: rgb(250, 233, 0);
 }
 
 .card-text{
-color: rgb(29, 29, 29);
+    color: rgb(29, 29, 29);
 }
 
     
 #gng {
-background-image:url('/img/gng.png');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: bottom left;
-color: rgb(218, 218, 218);
+    background-image:url('/img/gng.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+    color: rgb(218, 218, 218);
 
 }
 
 #trans {
-text-shadow: 2px 2px 6px  #1a1a1a;
-color: #FFFFFF;
-text-align: justify;
+    text-shadow: 2px 2px 6px  #1a1a1a;
+    color: #FFFFFF;
+    text-align: justify;
 
 }
 
 .text-justify {
-text-align: justify;
-
+    text-align: justify;
 }
 
   @media (max-width: 540px) {
@@ -568,4 +569,27 @@ text-align: justify;
         }}
 
 
+/* logo slider */
+ #slidelogo img {
+            width: 200px;
+            height:100px;
+            animation: scroll 24s linear infinite;
+            margin: 0 40px;
+        }
 
+#slidelogo .slide-track {
+     width: 100%;
+    display: flex;
+     gap: 3em;
+    overflow: hidden;
+}
+
+#slidelogo {
+
+    padding: 8px 0;
+}
+
+ @keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
