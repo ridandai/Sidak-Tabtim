@@ -1,5 +1,9 @@
 /********** Template CSS **********/
 
+body {
+    background-color: #e6ecfa !important;
+}
+
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -263,7 +267,7 @@ h6,
 }
 
 .rounded-pill {
-    background-color: #c9491a;
+    background-color: #b8171d;
 }
 
 /********** galery start **********/
@@ -394,7 +398,7 @@ h6,
     /* 1. Gaya untuk Navbar Besar (Default) */
     .navbar {
         transition: all 0.3s ease-in-out;
-        background-color: #000000;
+        background-color: #920f14;
     }
 
     .navbar a{
@@ -415,7 +419,7 @@ h6,
     /* 2. Gaya untuk Navbar Kecil (Saat di-scroll) */
 
     .navbar.scrolled {
-        background-color: #132e49 !important;
+        background-color: #0a0909 !important;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
     }
@@ -462,7 +466,7 @@ h6,
     }
 
     #hh {
-        height: 600px;
+        height: 500px;
 
     }
 
@@ -490,7 +494,78 @@ h6,
 
         }}
 
+#batik {
+background-image:url('/img/klipartz.com.jpg');
+background-repeat: repeat;
+}
+
+        .container-fluid #batik2 {
+background-image:url('/img/klipartz.com.jpg');
+background-repeat: repeat;
+}
+
+
+.container-fluid #batik {
+color: #b1b0b0;
+}
+
+#btkmerah {
+background-image:url('/img/bgdark.jpg');
+background-repeat: repeat;
+color: rgb(218, 218, 218);
+text-align: center;
+padding: 27px 8px;
+}
+
+#cardfootdark {
+background-image:url('/img/footdark.png');
+background-repeat: no-repeat;
+background-size: cover;
+color: rgb(218, 218, 218);
+text-align: center;
+padding: 18px 18px 18px 30px;
+}
+
+#cardfootdark a, #cardfootdark small{
+color: aliceblue;
+text-decoration: none;
+}
+
+#cardfootdark a:hover{
+color: rgb(250, 233, 0);
+}
+
+.card-text{
+color: rgb(29, 29, 29);
+}
+
     
+#gng {
+background-image:url('/img/gng.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom left;
+color: rgb(218, 218, 218);
+
+}
+
+#trans {
+text-shadow: 2px 2px 6px  #1a1a1a;
+color: #FFFFFF;
+text-align: justify;
+
+}
+
+.text-justify {
+text-align: justify;
+
+}
+
+  @media (max-width: 540px) {
+
+        #trans {
+            background-color: #141414;
+        }}
 
 
 
