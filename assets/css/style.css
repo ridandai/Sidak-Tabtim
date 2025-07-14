@@ -1,0 +1,279 @@
+
+
+* {
+    font-weight:500;
+    text-decoration: none !important;
+}
+
+body {
+    background-color: #FFE8F1;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(107,683,339)'%3E%3Cstop offset='0' stop-color='%23FFE8F1'/%3E%3Cstop offset='1' stop-color='%23DAFFF5'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='726' height='605' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.04'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+a {
+    color: rgb(16, 83, 146) !important;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+
+.bg-dark {
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+    text-shadow: 0px 0px 9px #FFFFFF;
+    color: rgb(23, 24, 27) !important;
+    font-weight:800 !important;
+}
+
+.bg-secondary {
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    color: rgb(255, 255, 255) !important;
+    font-weight:800 !important;
+    text-shadow: none !important;
+}
+
+.bg-secondary a{
+    color: rgb(255, 255, 255) !important;
+    font-weight:600 !important;
+    text-shadow: none !important;
+}
+
+.bg-info {
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+
+.bg-primary {
+   background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+}
+
+.card {
+background: radial-gradient(circle at 100% 100%, #f9f9f9 0, #f9f9f9 9px, transparent 9px) 0% 0%/10px 10px no-repeat,
+            radial-gradient(circle at 0 100%, #f9f9f9 0, #f9f9f9 9px, transparent 9px) 100% 0%/10px 10px no-repeat,
+            radial-gradient(circle at 100% 0, #f9f9f9 0, #f9f9f9 9px, transparent 9px) 0% 100%/10px 10px no-repeat,
+            radial-gradient(circle at 0 0, #f9f9f9 0, #f9f9f9 9px, transparent 9px) 100% 100%/10px 10px no-repeat,
+            linear-gradient(#f9f9f9, #f9f9f9) 50% 50%/calc(100% - 2px) calc(100% - 20px) no-repeat,
+            linear-gradient(#f9f9f9, #f9f9f9) 50% 50%/calc(100% - 20px) calc(100% - 2px) no-repeat,
+            linear-gradient(38deg, #ffcdf3 0%, #c0e9ff 100%);
+border-radius: 10px;
+padding: 4px;
+box-sizing: content-box;
+}
+
+@media (min-width: 1400px) {
+  .py-xxl-10 {
+    padding-top: 10.5rem !important;
+    padding-bottom: 10.5rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .py-md-10 {
+    padding-top: 10.5rem !important;
+    padding-bottom: 10.5rem !important;
+  }
+
+ #header p{
+    border-left: 2px solid rgb(78, 78, 78);
+    padding: 0 18px;
+  } 
+}
+
+
+
+
+.navbar-brand img{
+    width: 194px;
+    height: 57px;
+}
+
+.dropdown-item:hover {
+    background-color: #13547a;
+
+}
+
+/********** galery start **********/
+
+    @keyframes zoomin {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.05);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .gallery-item {
+        display: block;
+    }
+
+    .gallery-item img {
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+        transition: box-shadow 0.2s;
+    }
+
+    .gallery-item:hover img {
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.35);
+    }
+
+    .lightbox-modal .modal-content {
+        background-color: var(--lightbox);
+    }
+
+    .lightbox-modal .btn-close {
+        position: absolute;
+        top: 1.25rem;
+        right: 1.25rem;
+        font-size: 1.25rem;
+        z-index: 10;
+        filter: invert(1) grayscale(100);
+    }
+
+    .lightbox-modal .modal-body {
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+    .lightbox-modal .lightbox-content {
+        width: 100%;
+    }
+
+    .lightbox-modal .carousel-indicators {
+        margin-bottom: 0;
+    }
+
+    .lightbox-modal .carousel-indicators [data-bs-target] {
+        background-color: var(--carousel-text) !important;
+    }
+
+    .lightbox-modal .carousel-inner {
+        width: 75%;
+    }
+
+    .lightbox-modal .carousel-inner img {
+        animation: zoomin 10s linear infinite;
+    }
+
+    .lightbox-modal .carousel-item .carousel-caption {
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding-bottom: 2rem;
+        background-color: var(--lightbox);
+        color: var(--carousel-text) !important;
+    }
+
+    .lightbox-modal .carousel-control-prev,
+    .lightbox-modal .carousel-control-next {
+        width: auto;
+    }
+
+    .lightbox-modal .carousel-control-prev {
+        left: 1.25rem;
+    }
+
+    .lightbox-modal .carousel-control-next {
+        right: 1.25rem;
+    }
+
+    @media (min-width: 1400px) {
+        .lightbox-modal .carousel-inner {
+            max-width: 60%;
+        }
+    }
+
+    [data-bs-theme="dark"] .lightbox-modal .carousel-control-next-icon,
+    [data-bs-theme="dark"] .lightbox-modal .carousel-control-prev-icon {
+        filter: none;
+    }
+
+    .btn-fullscreen-enlarge,
+    .btn-fullscreen-exit {
+        position: absolute;
+        top: 1.25rem;
+        right: 3.5rem;
+        z-index: 10;
+        border: 0;
+        background: transparent;
+        opacity: .6;
+        font-size: 1.25rem;
+    }
+
+    .bi {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        vertical-align: -0.035em;
+        fill: currentcolor;
+    }
+    /********** galery end **********/
+
+.costumbutton1 {
+    color: #000000 !important;
+    border-radius: 8px;
+    box-shadow: 5px 8px 7px 0px rgba(23, 66, 107, 0.41);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    transition: all 5s ease-out !important;
+}
+
+.costumbutton1:hover, .btn.bg-dark:hover {
+    background-image: linear-gradient(to left, #b48aa1 0%, #92a592 0%, #90a390 0%, #af986b 30%, #9ca77a 64%, #62acad 100%);
+    color: rgb(250, 255, 186) !important;
+}
+
+.costumbutton1-text {
+    position: relative;
+    padding: 8px 14px;
+}
+
+.costumbutton1-icon {
+    position: relative;
+    border-left: 1px solid #ffffff29;
+    box-shadow: inset rgb(0 0 0 / 14%) 1px 0 0;
+    padding: 8px 14px;
+}
+
+span.badge{
+    margin: 3px 0 0 -50px;
+    position: absolute;
+}
+.card-header.ch1 {
+    padding-left: 60px;
+}
+
+
+.accordion-button{
+    box-shadow: none !important;
+}
+
+
+@media (max-width: 768px) {
+  #header > div > img {
+    padding-top: 6.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+
+  #header p {
+    color: #000000 !important;
+  }
+}
+
+.accordion-item {
+    background: none !important;
+    border: none !important;
+
+}
