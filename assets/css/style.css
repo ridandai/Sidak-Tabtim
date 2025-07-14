@@ -262,7 +262,12 @@ span.badge{
 
 
 @media (max-width: 768px) {
-  #header > div > div > div:nth-child(1) > img {
+  #header > div > img {
+    padding-top: 6.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+
+    #header > div > div > div:nth-child(1) > img {
     padding-top: 7.5rem !important;
     padding-bottom: 2.5rem !important;
   }
